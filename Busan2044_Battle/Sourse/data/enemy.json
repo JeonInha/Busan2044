@@ -1,0 +1,122 @@
+[
+  {
+      "Enemy_id": 10,
+      "Enemy_name": "할머니 좀비",
+      "Life": 2,
+      "Enemy_power": 0,
+      "Item": "1/10/15/9",
+      "IniVar": 2,
+      "Friendship_3_Script": "할머니 좀비는 내게 관심이 없다.",
+      "Friendship_2_Script": "할머니 좀비는 나의 존재를 인지하고 있다.",
+      "Friendship_1_Script": "할머니 좀비는 나에게 달려들고 있다.",
+      "Friendship_0_Script": "할머니 좀비는 초인적인 힘으로 나를 물어뜯으려 한다."
+  },
+  {
+      "Enemy_id": 11,
+      "Enemy_name": "할아버지 좀비",
+      "Life": 2,
+      "Enemy_power": 0,
+      "Item": "18/14/1",
+      "IniVar": 1,
+      "Friendship_3_Script": "할아버지 좀비는 내게 관심이 없다.",
+      "Friendship_2_Script": "할아버지 좀비는 나의 존재를 인지하고 있다.",
+      "Friendship_1_Script": "할아버지 좀비는 나에게 달려들고 있다.",
+      "Friendship_0_Script": "할아버지 좀비는 초인적인 힘으로 나를 물어뜯으려 한다."
+  },
+  {
+      "Enemy_id": 12,
+      "Enemy_name": "보통 좀비",
+      "Life": 3,
+      "Enemy_power": 1,
+      "Item": "19/13/1",
+      "IniVar": 1,
+      "Friendship_3_Script": "좀비는 내게 관심이 없다.",
+      "Friendship_2_Script": "좀비는 나의 존재를 인지하고 있다.",
+      "Friendship_1_Script": "좀비가 내게 달려들고 있다.",
+      "Friendship_0_Script": "좀비가 초인적인 힘으로 나를 물어뜯으려 한다."
+  },
+  {
+      "Enemy_id": 13,
+      "Enemy_name": "화난 일반인 좀비",
+      "Life": 3,
+      "Enemy_power": 1,
+      "Item": "9/10/13/15",
+      "IniVar": 0,
+      "Friendship_3_Script": "좀비는 내게 관심이 없다.",
+      "Friendship_2_Script": "좀비는 나의 존재를 인지하고 있다.",
+      "Friendship_1_Script": "좀비가 내게 달려들고 있다.",
+      "Friendship_0_Script": "좀비가 초인적인 힘으로 나를 물어뜯으려 한다."
+  },
+  {
+      "Enemy_id": 21,
+      "Enemy_name": "좀비 들개",
+      "Life": 2,
+      "Enemy_power": 1,
+      "Item": "9/10/13",
+      "IniVar": 1,
+      "Friendship_3_Script": "좀비 들개는 내게 관심이 없는 것 같다.",
+      "Friendship_2_Script": "좀비 들개는 허공을 킁킁거리고 있다.",
+      "Friendship_1_Script": "좀비 들개가 이를 드러내고 그르렁 거린다.",
+      "Friendship_0_Script": "좀비 들개가 나를 죽일 요량으로 물어뜯으려 한다."
+  },
+  {
+      "Enemy_id": 22,
+      "Enemy_name": "화난 좀비 멧돼지",
+      "Life": 7,
+      "Enemy_power": 3,
+      "Item": "9/10/13/1",
+      "IniVar": 0,
+      "Friendship_3_Script": "좀비 멧돼지는 내게 관심이 없다.",
+      "Friendship_2_Script": "좀비 멧돼지는 나와 시선을 교환하고 있다.",
+      "Friendship_1_Script": "좀비 멧돼지가 날카로운 엄니로 나를 들이받으려 한다.",
+      "Friendship_0_Script": "좀비 멧돼지가 나를 덮쳐 물어뜯으려 한다."
+  },
+  {
+      "Enemy_id": 24,
+      "Enemy_name": "좀비 새",
+      "Life": 1,
+      "Enemy_power": 2,
+      "Item": "9/10/13",
+      "IniVar": 2,
+      "Friendship_3_Script": "좀비새는 내게 관심이 없다.",
+      "Friendship_2_Script": "좀비새는 팔을 퍼덕거리며 까악거리고 있다.",
+      "Friendship_1_Script": "좀비새가 나를 발톱으로 할퀴려 한다.",
+      "Friendship_0_Script": "좀비새가 나를 덮쳐 물어뜯으려 한다."
+  },
+  {
+      "Enemy_id": 25,
+      "Enemy_name": "좀비 고양이",
+      "Life": 2,
+      "Enemy_power": 1,
+      "Item": "9/10/13",
+      "IniVar": 1,
+      "Friendship_3_Script": "좀비고양이가 내게 관심을 잃고 식빵을 굽는다.",
+      "Friendship_2_Script": "좀비 고양이가 꼬리를 세우고서 나를 노려본다.",
+      "Friendship_1_Script": "좀비 고양이가 내게 하악질을 하고 있다.",
+      "Friendship_0_Script": "좀비 고양이가 내게 덮쳐들고 있다."
+  },
+  {
+      "Enemy_id": 31,
+      "Enemy_name": "순찰중인 군인",
+      "Life": 5,
+      "Enemy_power": 4,
+      "Item": "9/19/1/18",
+      "IniVar": 1,
+      "Friendship_3_Script": "군인은 나의 처우를 고민하고 있다.",
+      "Friendship_2_Script": "군인은 나를 경계하고 있다.",
+      "Friendship_1_Script": "군인이 내게 위협사격을 한다.",
+      "Friendship_0_Script": "군인이 내게 총을 똑바로 겨눈다."
+  },
+  {
+      "Enemy_id": 32,
+      "Enemy_name": "껄렁한 군인",
+      "Life": 5,
+      "Enemy_power": 4,
+      "Item": "9/19/6/18",
+      "IniVar": 1,
+      "Friendship_3_Script": "군인은 자신의 손익을 생각하고 있다.",
+      "Friendship_2_Script": "군인은 나를 경계하고 있다.",
+      "Friendship_1_Script": "군인이 내게 위협사격을 한다.",
+      "Friendship_0_Script": "군인이 내게 총을 똑바로 겨눈다."
+  }
+]

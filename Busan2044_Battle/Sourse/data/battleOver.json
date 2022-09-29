@@ -1,0 +1,82 @@
+[
+  {
+      "Enemy_id": 10,
+      "FriendScript": "할머니 좀비는 내게 관심을 잃고 떠났다.",
+      "RunAwayScript": "할머니 좀비에게서 도망쳤다.",
+      "WinScript": "할머니 좀비를 죽였다.",
+      "LoseScript": "할머니 좀비는 예상외로 강력했다. 물어뜯겨 목숨을 잃었다.",
+      "NomalScript": "간신히 할머니 좀비에게서 도망칠 수 있었다."
+  },
+  {
+      "Enemy_id": 11,
+      "FriendScript": "할아버지 좀비는 내게 관심을 잃고 떠났다.",
+      "RunAwayScript": "할아버지 좀비에게서 도망쳤다.",
+      "WinScript": "할아버지 좀비를 죽였다.",
+      "LoseScript": "할아버지 좀비는 예상외로 강력했다. 물어뜯겨 목숨을 잃었다.",
+      "NomalScript": "간신히 할아버지 좀비에게서 도망칠 수 있었다."
+  },
+  {
+      "Enemy_id": 12,
+      "FriendScript": "좀비는 내게 관심을 잃고 떠났다.",
+      "RunAwayScript": "좀비에게서 도망쳤다.",
+      "WinScript": "좀비를 죽였다.",
+      "LoseScript": "좀비에게 물어뜯겨 목숨을 잃었다.",
+      "NomalScript": "간신히 좀비에게서 도망칠 수 있었다."
+  },
+  {
+      "Enemy_id": 13,
+      "FriendScript": "화난 좀비는 내게 관심을 잃고 떠났다.",
+      "RunAwayScript": "화난 좀비에게서 도망쳤다.",
+      "WinScript": "화난 좀비를 죽였다.",
+      "LoseScript": "화난 좀비에게 물어뜯겨 목숨을 잃었다.",
+      "NomalScript": "간신히 화난 좀비에게서 도망칠 수 있었다."
+  },
+  {
+      "Enemy_id": 21,
+      "FriendScript": "좀비 들개가 다른 곳으로 달려갔다.",
+      "RunAwayScript": "좀비 들개에게서 도망쳤다.",
+      "WinScript": "좀비 들개를 죽였다.",
+      "LoseScript": "좀비 들개에게 물어뜯겨 목숨을 잃었다.",
+      "NomalScript": "간신히 좀비 들개에게서 도망칠 수 있었다."
+  },
+  {
+      "Enemy_id": 22,
+      "FriendScript": "화난 좀비 멧돼지가 만족하여 떠났다.",
+      "RunAwayScript": "화난 좀비 멧돼지에게서 도망쳤다.",
+      "WinScript": "화난 좀비 멧돼지를 죽였다.",
+      "LoseScript": "좀비 멧돼지의 엄니에 복부가 뚫려 목숨을 잃었다.",
+      "NomalScript": "간신히 화난 좀비멧돼지에게서 도망칠 수 있었다."
+  },
+  {
+      "Enemy_id": 24,
+      "FriendScript": "좀비 새가 그냥 날아가버렸다.",
+      "RunAwayScript": "좀비새에게서 도망쳤다.",
+      "WinScript": "좀비 새를 죽였다.",
+      "LoseScript": "좀비새에게 물어뜯겨 목숨을 잃었다.",
+      "NomalScript": "좀비새에게서 간신히 도망쳤다."
+  },
+  {
+      "Enemy_id": 25,
+      "FriendScript": "좀비 고양이가 훌쩍 떠나갔다.",
+      "RunAwayScript": "좀비고양이에게서 도망쳤다.",
+      "WinScript": "좀비 고양이를 죽였다.",
+      "LoseScript": "좀비고양이에게 물어뜯겨 목숨을 잃었다.",
+      "NomalScript": "좀비고양이에게서 간신히 도망쳤다."
+  },
+  {
+      "Enemy_id": 31,
+      "FriendScript": "순찰중인 군인이 날 놓아주었다.",
+      "RunAwayScript": "순찰하던 군인에게서 도망쳤다.",
+      "WinScript": "순찰 중이었던 군인을 죽였다.",
+      "LoseScript": "군인은 겨누고 있던 총을 발포하였고, 총알이 내 심장을 관통했다.",
+      "NomalScript": "순찰하던 군인과 대치하다 간신히 도망쳤다."
+  },
+  {
+      "Enemy_id": 32,
+      "FriendScript": "껄렁해보이는 군인이 날 놓아주었다.",
+      "RunAwayScript": "껄렁한 군인에게서 도망쳤다.",
+      "WinScript": "껄렁한 군인을 죽였다.",
+      "LoseScript": "껄렁한 군인은 겨누고 있던 총을 발포하였고, 총알이 내 심장을 관통했다.",
+      "NomalScript": "껄렁한 군인과 대치하다 간신히 도망쳤다."
+  }
+]
