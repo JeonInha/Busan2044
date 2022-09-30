@@ -24,10 +24,42 @@
   - 프로그램 전체 기여도: 30%
   - 전투모듈 기여도: 95%
 
+***
+
+### 2. 개발 중점 사항과 문제점
+  - 행동의 명중률 구현
+    - 수식을 통해 행동의 종류마다 명중률을 지정하는 수식을 작성하였고 Random클래스를 통해 난수를 생성, 그 난수값과 명중률을 비교하여 난수값이 명중률보다 같거나 낮을 경우 스킬이 성공한 것으로 설정.
+    ```java
+  // "도망치기" 행동의 성공확률: 기본 20%, 도망치기 스킬의 활성화 여부, 적의 상태, 턴 수 등에 따라 성공확률이 변동함
+  int calcGetAway(int turn, int skillAim, Enemy enemy) {
+		return (20 + (turn) * 5 + skillAim + (enemy.getIniVar() - 1) * 12);
+	}
+
+  // "도망치기" 행동을 실행하고 그 결과를 boolean값으로 반환
+  boolean runAway(int turn, Enemy enemy) {
+		System.out.println("<도망치기>");
+		double getAwayDouble = calcGetAway(turn, 0, enemy);
+		double dice = random.nextDouble() * 100;
+		System.out.println("도주성공률: " + String.valueOf(getAwayDouble));
+		System.out.println("다이스: " + String.valueOf(dice));
+		if (getAwayDouble >= dice) {
+			System.out.println("도주 성공");
+			return true;
+		} else {
+			System.out.println("도주 실패");
+			return false;
+		}
+	}
+    ```
+    
+    - 카드 레이아웃 구성
+      - SWING 기능 중 하나인 CardLayout을 이용해 A(스킬 분류 선택) - B(사용할 스킬 선택) - C(스킬 결과 출력) - D(적 행동 결과 출력) E(전투 결과), 5개의 화면을 순회하며 전투 턴을 진행하는 구성.
+      - 사용자의 행동에 따라 출력값이 변화하여, 다음 화면으로 넘어가는 버튼에 다음 화면을 구현하는 기능을 할당함.
+      - 결과적으로 view와 기능 구현 코드가 서로 섞여있는 모양. 구현의 한계를 느낌.
 
 ***
 
-### 2. 프로그램 미리보기
+### 3. 프로그램 미리보기
 ![poster](./img/1.PNG)    
 ![poster](./img/2.PNG)    
 ![poster](./img/3.PNG)   
@@ -36,6 +68,6 @@
 
 ***
 
-### 3. LICENSE
+### 4. LICENSE
 - (C) 2022. JeonInha all rights reserved.
 - 해당 프로그램에 사용된 디자인 요소들은 미리캔버스(https://www.miricanvas.com/) 를 통해 제작하였습니다.
